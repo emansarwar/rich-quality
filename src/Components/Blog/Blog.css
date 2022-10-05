@@ -1,0 +1,71 @@
+.title-link{
+    background-color: cadetblue;
+}
+
+.blog-title{
+    background-color: rgba(219, 231, 227, 0.362);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blog-link{
+    margin-right: 5px;
+    margin-top: 0px;
+    /* background-color: rgba(186, 206, 226, 0.725); */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.blog-link a:focus{
+    background-color: deepskyblue;
+}
+.blog-link a{
+    
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgba(127, 221, 190, 0.655);
+    border: 2px solid rgba(236, 218, 218, 0.143);
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+
+/* .li-figure{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.li-item{
+    width: 50%;
+}
+.figure-item{
+    width: 50%;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.fig-header{
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.complex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.sec-art{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.aside{
+    width: 50%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    
+} */
+

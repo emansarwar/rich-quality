@@ -1,0 +1,7 @@
+.link-about{
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: rgba(201, 220, 214, 0.86);
+}

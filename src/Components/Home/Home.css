@@ -1,0 +1,55 @@
+.button-demo{
+    padding: 10px;
+    border: 2px solid rgba(188, 78, 235, 0.747);
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: rgb(156, 7, 56);
+    /* text-size-adjust: auto; */
+    font-size: medium;
+    font-weight: 600;
+    float: left;
+}
+.img-title{
+    display: flex;
+    
+    
+}
+.main-home{
+    margin: 30px;
+}
+
+
+
+
+.home-text{
+    width: 90%;
+    padding: 20px;
+    margin: 50px;
+    
+    
+}
+.title{
+    text-align: left;
+    color: rgb(187, 37, 14);
+    
+    
+
+}
+.p-align{
+    text-align: left;
+    color: rgb(60, 4, 4);
+
+}
+.button-align{
+    text-align: left;
+}
+
+
+
+
+.home-img{
+    float: right;
+    margin: 30px;
+    width: 70%;
+    border-radius: 20px;
+}
