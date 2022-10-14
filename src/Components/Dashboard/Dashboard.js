@@ -1,6 +1,7 @@
 import React from 'react';
 import './Dashboard.css'
 import { Area, AreaChart, CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import Footer from '../Footer/Footer';
 
 const Dashboard = () => {
     const data = [
@@ -87,6 +88,9 @@ const Dashboard = () => {
                     </ResponsiveContainer>
                 </div>
 
+            </div>
+            <div>
+                <Footer/>
             </div>
         </div>
 

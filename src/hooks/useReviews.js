@@ -7,12 +7,14 @@ const useReviews = () => {
         fetch('reviews.json')
         .then(res => res.json())
         .then(data => setComments(data));
+        // .then(data => setReviews(data.slice(2)));
     }, []);    
     useEffect( () =>{
-        const url = `reviews.json`
-        fetch(url)
+        // const url = `reviews.json`
+        fetch('reviews.json')
         .then(res => res.json())
-        .then(data => setReviews(data))
+        .then(data =>setReviews(data))
+        
     }, []);
     return [comments, setComments, reviews, setReviews];
 }

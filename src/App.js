@@ -7,7 +7,7 @@ import Blog from './Components/Blog/Blog';
 import Context from './Components/Context/Context';
 import Dashboard from './Components/Dashboard/Dashboard';
 
-// import Footer from './Components/Footer/Footer';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';

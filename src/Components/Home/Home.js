@@ -1,10 +1,12 @@
 import React from 'react';
 import useReviews from '../../hooks/useReviews';
+import Footer from '../Footer/Footer';
 import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
+    const homeReviews = reviews.slice(0, 3);
     // let txt = "";
     // for (let x in reviews) {
     //     txt += reviews[x] + "<br>";
@@ -30,11 +32,12 @@ const Home = () => {
                 </div>
             </div>
             <hr />
-
-            <div className='all-review'>
+            <div>
+                <h2 className='home-review-title'>OUR SERVICES</h2>
+            <div className='home-review'>
                 {
 
-                    reviews.map(review => <Review
+                    homeReviews.map(review => <Review
                         key={review.id}
                         review={review}
                     />)
@@ -42,6 +45,11 @@ const Home = () => {
                 }
 
             </div>
+            </div>
+            <div>
+                <Footer/>
+            </div>
+            
 
         </div>
     );

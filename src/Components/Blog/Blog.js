@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 // import Semantic from '../Semantic/Semantic';
 import './Blog.css'
 
@@ -18,6 +19,9 @@ const Blog = () => {
                         <Link to='/context'>CONTEXT API</Link>
                     </nav>
                 </div>
+            </div>
+            <div>
+            <Footer/>
             </div>
 
         </>

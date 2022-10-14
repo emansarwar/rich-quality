@@ -1,5 +1,6 @@
 
 import useReviews from '../../hooks/useReviews';
+import Footer from '../Footer/Footer';
 
 
 import Review from '../Review/Review';
@@ -10,6 +11,7 @@ const Reviews = () => {
     
     return (
         <div>
+            <div>
             <h2 className='review-title'>REVIEW PAGE</h2>
             <div className='all-review'>
             {
@@ -20,6 +22,10 @@ const Reviews = () => {
             }
             </div>
             
+        </div>
+        <div>
+            <Footer/>
+        </div>
         </div>
     );
 };
